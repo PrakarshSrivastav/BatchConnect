@@ -1,0 +1,28 @@
+{
+  "name": "my-node-login-app",
+  "version": "1.0.0",
+  "description": "A login and registration system customized for my project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrakarshSrivastav/my-node-login-app.git"
+  },
+  "author": "Prakarsh Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "consolidate": "^1.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "mustache": "^4.2.0",
+    "socket.io": "^4.7.1",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  }
+}
